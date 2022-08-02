@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #004b51;
+}
+
+.mini_card {
+  background: #01363a !important;
+}
+.title {
+  color: #80babe !important;
+  padding-top: 10px;
+}
+
+.btn_plus {
+  position: relative;
+  top: 25px;
+  background: #f88789 !important;
+}
+
+.btn_plus:hover {
+  background: #80babe !important;
+}
+
+.fab {
+  padding: 2px;
+}
+.fab:hover {
+  padding: 2px;
+  background: #f88789 !important;
+}
+
+.item_info {
+  margin-bottom: 50px;
+}
+
+.card_img {
+  margin-top: 20px;
+}
+
+.mini_card_hover {
+  display: none;
+  background: #012a2e !important;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.task:hover .mini_card_hover {
+  display: block !important;
+}
+.task:hover .mini_card {
+  display: none !important;
+}
